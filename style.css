@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #24252a;
+}
+li,a,button{
+    font-family:"montsrrat", sans-serif ;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1 ;
+    text-decoration: none;
+
+}
+header{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 30px 10%;
+    
+}
+.logo
+{
+    cursor:pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    
+}
+.nav_list
+{
+    list-style: none;
+}
+.nav_list li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_list li a{
+    transition: all .3s ease 0s ;
+}
+
+.nav_list li a:hover{
+    color: #0088a9;
+}
+button{
+    padding:  9px 25px;
+    background-color:#0088a9 ;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all .3s ease 0s ;
+
+}
+button:hover{
+    background-color:green ;
+}
+.image
+{
+   border: 10px solid transparent;
+   padding: 15px;
+}
+.progress_bar{
+    display: flex;
+    flex-direction: column;
+
+}
+.div2 {
+    display: flex;
+    
+    align-items: center;
+}
+.pro{
+    height: 100;
+    font-family:"montsrrat", sans-serif ;
+    padding: 30px;
+    color: #edf0f1 ;
+    margin: 100px;
+}
+.list 
+{
+    display:contents;
+    width: 300px;
+    padding: 0;
+    margin: 100px auto;
+    border: 1px solid #bbb;     
+}
+.list li{
+    list-style: none;
+
+    border-top: 1px solid #ccc;
+    padding: 10px 20px  ;
+}
+.name{
+    transition: all .3s ease 0s ; 
+    color: #edf0f1; 
+}
+.name:hover{
+    color: #0088a9;
+}
+.my_name:hover{
+    
+    color: #0088a9;
+}
+.my_name{
+    color: azure;
+}
+.div3{
+    padding: 10px;
+    margin-left: 15px;
+    color: azure;
+    margin-top: 50px;
+    font-family:"montsrrat", sans-serif ;
+    font-size: 20px;
+}
+
+
+
+.regform{
+   margin-top: 30px;
+
+    width: 800px;
+    background-color: rgb(0,0,0,0.6);
+    margin: auto;
+    color: #FFFFFF;
+    padding:10px 0px 10px 0px ;
+    border-radius:15px 15px 0px 0px  ;
+    text-align: center;
+
+}
+.last_div{
+    background-color:rgb(88, 76, 60);
+    margin-top: 100px;
+}
+.main{
+
+    width: 800px ;
+    margin: auto;
+}
+form{
+    padding: 10px;
+}
+#name{
+    width: 100%;
+    height: 100px ;
+}
+.name{
+    padding-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color:white ;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.firstname{
+    position: relative;
+    left: 200px;
+    top:-37px;
+    line-height:40px  ;
+    padding: 0 ,22px;
+    font-size: 16px;
+
+
+}
+.lastname{
+     position :relative;
+     left: 400px;
+     top:-80px;
+     line-height: 40px;
+     border-radius: 0 22px;
+     font-size: 16px;
+     color: #555;
+
+}
+.firstlevel{
+   
+    position: relative;
+    color:#E5E5E5 ;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 203px;
+    top:-45px;
+
+} 
+.lastlevel{
+     
+    position: relative;
+    color:#E5E5E5 ;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 195px;
+    top:-45px;
+
+}
+.address{
+    position: relative;
+    left: 200px;
+    top:-37px;
+    line-height: 40px;
+    width: 480px;
+    border-radius: 6px;
+    padding: 0.22px;
+    font-size: 16px;
+    color: #555;
+}
+.email{
+    position: relative;
+    left: 200px;
+    top:-37px;
+    line-height: 40px;
+    width: 480px;
+    border-radius: 6px;
+    padding: 0.22px;
+    font-size: 16px;
+    color: #555;
+}
+.number {
+    position: relative;
+    left: 200px;
+    top:-37px;
+    line-height: 40px;
+    width: 480px;
+    border-radius: 6px;
+    padding: 0.22px;
+    font-size: 16px;
+    color: #555;
+}
+#dob{
+    position: relative;
+    left: 200px;
+    top:-37px;
+    line-height: 40px;
+    width: 480px;
+    border-radius: 6px;
+    padding: 0.22px;
+    font-size: 16px;
+    color: #555; 
+}
+.radio{
+    position: relative;
+    left: 200px;
+    top:-40px;
+    line-height: 0; 
+    border-radius: 6px;  
+    color: #555; 
+
+}
+#student{
+    position: relative;
+    color: #E5E5E5;
+    margin: 20px;  
+    
+}
+.im{
+    position: relative;
+    margin-left: 20px;   
+    color: #E5E5E5;
+    
+
+}
+.button {
+    margin: 50px;
+
+}
+
+    
